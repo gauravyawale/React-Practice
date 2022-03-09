@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.counter{
+    text-align: center;
+    margin: 25px;
+    border: 2px solid brown;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.buttons{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80px;
+    height: 60px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 8px;
+    
+}
+
+.buttons:hover{
+    background-color: lightslategray;
+    color: antiquewhite;
+
+}
+
+.counter-value {
+    font-size: 80px;
+}
+
+.row-one{
+    display: flex;
+}
