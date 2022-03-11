@@ -1,0 +1,32 @@
+
+.button-item {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.img-item {
+    width: 300px;
+    height: 300px;
+    border: 2px solid lightcoral;
+    border-radius: 20px;
+}
+
+.personDetails{
+    margin: 20px;
+    text-align: center;
+    border: 2px solid lawngreen;
+    padding: 50px;
+}
+
+.button-item:focus{
+    background-color: greenyellow;
+    font-size: 24px;
+}
+
+
+

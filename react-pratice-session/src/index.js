@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import App from "./CounterApp/AppReplace";
+import App from "./App";
 
 const updateElem = document.getElementById("root");
 
