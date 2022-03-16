@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import App from "./DogPics/App";
+import App from "./BookAppointment/App";
 
 const updateElem = document.getElementById("root");
 
