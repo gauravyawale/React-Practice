@@ -258,11 +258,11 @@ function BookAppointment() {
           <h2>Appointment Booked Successfully</h2>
 
           <div className="card text-muted" style={{borderRadius:"20px"}}>
-          <h5>Full Name : {state.bookingDetails.fname + " " + state.bookingDetails.lname}</h5>
-          <h5>Email : {state.bookingDetails.email}</h5>
-          <h5>Doctor to be Meet: {state.bookingDetails.doctor}</h5>
-          <h5>Mode of Communication : {state.bookingDetails.communicationMode}</h5>
-          <h5>Date and Time : {state.bookingDetails.date}</h5>
+          <h6>Full Name : {state.bookingDetails.fname + " " + state.bookingDetails.lname}</h6>
+          <h6>Email : {state.bookingDetails.email}</h6>
+          <h6>Doctor to be Meet: {state.bookingDetails.doctor}</h6>
+          <h6>Mode of Communication : {state.bookingDetails.communicationMode}</h6>
+          <h6>Date and Time : {state.bookingDetails.date}</h6>
           </div>
 
           <button className="btn btn-primary mt-4" onClick={handleCancelAppointment}>Cancel Appointment</button>
